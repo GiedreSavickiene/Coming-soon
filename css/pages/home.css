@@ -14,3 +14,33 @@
 @import '../components/progress-bar.css';
 
 /* CUSTOMS STYLE BELOW THIS COMMENT, FOR THIS PAGE*/ 
+
+.conteiner{
+    width: 1000px;
+    margin-left: calc(50% - 500px);
+    background-color: yellow;
+
+}
+@media (width: 900px) {
+    .conteiner{
+        width: 600px;
+        margin-left: calc(50% - 300px);
+        font-size: 20px;
+        background-color: pink;
+    }
+}
+@media(max-width: 700px){
+    .conteiner{
+        width: 400px;
+        margin-left: calc(50% - 200px);
+        background-color: aquamarine;
+    }
+}
+@media(max-width: 500px){
+    .conteiner{
+        width: 100%;
+        margin-left: 0%;
+        padding: 30px;
+        background-color: blue;
+    }
+}
