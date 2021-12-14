@@ -1,20 +1,19 @@
 .conteiner {
     display: inline-block;
     width: 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
 }
 
 
 .conteiner > .row {
     display: inline-block;
     width: 800px;
-    margin-left: calc(50% - 400px);
+    margin: 0 calc(50% - 400px);
 }
 .conteiner > .row-short{
     display: inline-block;
     width: 600px;
-    margin-left:  calc(50% - 300px);
+    margin: 0 calc(50% - 300px);
 }
 
 .conteiner .left{
