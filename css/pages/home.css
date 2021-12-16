@@ -4,7 +4,7 @@
 @import '../base/layout.css';
 
 /* 3rd-party*/
-
+@import '../components/font-awesome.min.css';
 
 /* components*/
 @import '../components/button.css';
@@ -13,7 +13,7 @@
 @import '../components/mouse.css';
 @import '../components/progress-bar.css';
 
-/* CUSTOMS STYLE BELOW THIS COMMENT, FOR THIS PAGE*/ 
+/* CUSTOMS STYLE BELOW THIS COMMENT, FOR THIS PAGE*/
 .hero {
     padding-bottom: 30px;
     background-image: url(../../img/banner-1.jpg);
@@ -22,7 +22,7 @@
     background-position: center;
     background-attachment: fixed;
 }
-.hero > .row-short{
+.hero > .row-short {
     text-align: center;
 }
 
@@ -31,80 +31,96 @@
     height: 50px;
     margin-bottom: 35px;
     object-fit: contain;
+    object-position: center;
 }
 
-.hero .main-title{
-    margin-bottom: 20px;
-    font-size: 54px;
+.hero .main-title {
+    margin-bottom: 15px;
+    font-size: 44px;
     text-transform: uppercase;
 }
 
-.hero .main-description{
+.hero .main-description {
     margin-bottom: 30px;
     font-size: 18px;
     color: #777;
 }
 
-.hero .clock{
+.hero .clock {
     margin-bottom: 30px;
 }
-.hero .form{
+.hero .form {
     width: 90%;
     margin: 0 5% 15px;
-    
 }
 .hero .form > .input {
     color: white;
     border-color: white;
     border-bottom: 2px solid #ccc;
-       
 }
 
 .hero .form > .input::placeholder {
     color: white;
-    
 }
 .column > * {
     margin-bottom: 20px;
 }
-.column > *:last-child{
+.column > *:last-child {
     margin-bottom: 0;
 }
 
-.content-title{
+.content-title {
     text-transform: uppercase;
     font-size: 20px;
     line-height: 1em;
-    
 }
-.content-description{
+.content-description {
     font-size: 17px;
     color: #999;
-    
-
 }
-.content-description > .link{
+.content-description > .link {
     color: var(--secondary-color);
     text-decoration: none;
 }
 
-.content-description > .link:hover{
+.content-description > .link:hover {
     color: var(--secondary-color);
     text-decoration: underline;
 }
 
-main .form >button{
+main .form > button {
     float: right;
 }
-@media(min-width: 900px){
+@media (min-width: 900px) {
     main .form > input.input {
-    width: calc(50% - 10px);
+        width: calc(50% - 10px);
     }
 
     main .form > input.input:last-child {
-
-    float: right;
+        float: right;
+    }
 }
+
+footer.conteiner {
+    padding-top: 0;
 }
 
-
+.socials {
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+.socials > .fa {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all is;
+}
+.socials > .fa:hover {
+    background-color: white;
+    color: var(--primary-color);
+}
