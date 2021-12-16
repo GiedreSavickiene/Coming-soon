@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,12 +12,13 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
     <link rel="manifest" href="./favicon/site.webmanifest">
     <link rel="mask-icon" href=".favicon/safari-pinned-tab.svg" color="#5bbad5">
-    
+
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    
+
 </head>
+
 <body>
     <section class="conteiner bg-primary hero">
         <div class="row-short">
@@ -42,20 +44,61 @@
                 </div>
             </div>
             <form class=" form">
-                 Subscribe form
+                <label for="emeli">Email</label>
+                <input id="email" class="input" type="email" placeholder="Email" required autocomplete="email" value=>
+                <button class="btn" type="submit">Send message</button>
+
             </form>
             <div class="mouse">
                 mouse
             </div>
-         </div>
+        </div>
     </section>
     <main class="conteiner">
         <div class="row">
-            <div class="left">
-                LEFT CONTENT
+            <div class="column left">
+                <h2 class="content-title">ABOUT STARTUP</h2>
+                <p class="content-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam obcaecati <a class="link" href="#">Matrox</a> perferendis vel mollitia expedita? Blanditiis?</p>
+                <div class="progress-bar">
+                    <div class="top">
+                        <div class="title">UX Desinge</div>
+                        <div class="value">77%</div>
+                    </div>
+                    <div class="bottom">
+                        <div class="bar" style="width: 77%;"></div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <div class="top">
+                        <div class="title">Web Designe</div>
+                        <div class="value">86%</div>
+                    </div>
+                    <div class="bottom">
+                        <div class="bar" style="width: 86%;"></div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <div class="top">
+                        <div class="title">Web Development</div>
+                        <div class="value">50%</div>
+                    </div>
+                    <div class="bottom">
+                        <div class="bar" style="width: 50%;"></div>
+                    </div>
+                </div>
             </div>
-            <div class="right">
-                RIGHT CONTEIN
+            <div class="column right">
+                <h2 class="content-title">HAVE ANY QUESTION?</h2>
+                <p class="content-description">Lorem ipsum dolor sit amet <a class="link" href="mailto:vardenis@pastas.xyz">vardenis@pastas.xyz</a> consectetur adipisicing elit. Porro ratione odit, deserunt nam nisi perspiciatis.</p>
+                <form class="form">
+                    <label for="name">name</label>
+                    <input id="name" class="input" type="text" placeholder="Name" required autocomplete="name" value="">
+                    <label for="emeli">Email</label>
+                    <input id="email" class="input" type="email" placeholder="Email" required autocomplete="email" value=>
+                    <label for=" message">Message</label>
+                    <textarea name="" id="message" class="input" placeholder="Message" required autocomplete="off"></textarea>
+                    <button class="btn" type="submit">Send message</button>
+                </form>
             </div>
         </div>
     </main>
@@ -67,7 +110,7 @@
             FOOTER CONTEIN
         </div>
     </footer>
-</body>    
-    
-    
+</body>
+
+
 </html>
