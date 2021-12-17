@@ -103,6 +103,7 @@ main .form > button {
 
 footer.conteiner {
     padding-top: 0;
+    text-align: center;
 }
 
 .socials {
@@ -123,4 +124,12 @@ footer.conteiner {
 .socials > .fa:hover {
     background-color: white;
     color: var(--primary-color);
+}
+
+footer .logo {
+    height: 50px;
+    width: 100%;
+    margin: 50px 0;
+    object-fit: contain;
+    object-position: top;
 }
