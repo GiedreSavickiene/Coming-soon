@@ -141,6 +141,7 @@ footer .trio > p {
     float: left;
     padding: 0 10px;
     position: relative;
+    margin-bottom: 0;
 }
 
 footer .trio > p::before {
@@ -157,6 +158,10 @@ footer .trio > p::before {
 
 footer .trio > p:first-child::before {
     display: none;
+}
+
+.row-short > p {
+    margin-top: 0%;
 }
 
 footer .link {
