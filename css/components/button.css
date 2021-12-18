@@ -9,6 +9,7 @@
     line-height: 1em;
     text-decoration: none;
     cursor: pointer;
+    box-shadow: 0 2px 8px 10px #0005;
 }
 
 .btn + .btn {
@@ -19,8 +20,13 @@
     border-radius: 1.3em;
 }
 
-.btn.btn-round.fa {
-    border-radius: 1.3em;
+.btn.btn-round.btn-icon {
+    width: 1.3em;
+    height: 1.3em;
+    line-height: 1.2;
+    margin-top: -0.05em;
+    font-size: 40px;
+    padding: 0;
 }
 .btn:hover {
     background-color: palevioletred;
