@@ -9,7 +9,7 @@
     line-height: 1em;
     text-decoration: none;
     cursor: pointer;
-    box-shadow: 0 2px 8px 10px #0005;
+    box-shadow: 0 2px 8px 5px #0005;
 }
 
 .btn + .btn {
