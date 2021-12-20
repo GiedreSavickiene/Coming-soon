@@ -51,7 +51,7 @@
 }
 .hero .form {
     width: 90%;
-    margin: 0 5% 15px;
+    margin: 0 5% 40px;
 }
 .hero .form > .input {
     color: white;
@@ -135,6 +135,7 @@ footer .logo {
     object-fit: contain;
     object-position: top;
 }
+
 footer .trio {
     display: inline-block;
 }

@@ -1,17 +1,16 @@
-.progress-bar{
-   display: inline-block;
-   width: 100%; 
+.progress-bar {
+    display: inline-block;
+    width: 100%;
 }
-.progress-bar > .top{
+.progress-bar > .top {
     display: inline-block;
     width: 100%;
     margin-bottom: 10px;
-
 }
 .progress-bar > .top > .title {
     float: left;
 }
-.progress-bar > .top > .value{
+.progress-bar > .top > .value {
     float: right;
 }
 
@@ -26,4 +25,24 @@
     width: 90%;
     height: 100%;
     background-color: var(--primary-color);
+    animation-name: loading;
+    animation-duration: 2s;
+}
+
+.progress-bar > .bar > .loading {
+    width: 0%;
+    height: 100%;
+    background-color: var(--primary-color);
+    animation-name: loading;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
 }
